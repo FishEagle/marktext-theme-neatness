@@ -1,0 +1,91 @@
+/** Neatness **/
+
+.hf-container,
+.markdown-body {
+  font-family: "Liberation Sans",Arial,"Segoe UI","Noto Sans",Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 10pt;
+  line-height: 1.4;
+  color: #5E676D;
+}
+
+.markdown-body h1 {
+  padding-top: 1.5em;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.markdown-body ol > li,
+.markdown-body ul > li {
+	margin-top: .25em;
+}
+
+.markdown-body .toc-container {
+	color: #007EE5;
+	font-weight: bold;
+	line-height: 1.25;
+}
+
+.markdown-body .toc-container .dots {
+	display: none;
+}
+
+.markdown-body .toc-container ol:not(.toc-list),
+.markdown-body .toc-container ul:not(.toc-list) {
+    padding-left: 4em;
+}
+
+.markdown-body .toc-container em,
+.markdown-body h4 em {
+	font-style: normal;
+	font-weight: normal;
+}
+
+.markdown-body .toc-container i,
+.markdown-body h4 i {
+	font-weight: normal;
+}
+
+.markdown-body h4 {
+	margin-top: 1.25em;
+	margin-bottom: 0.75em;
+	font-size: 1.125em;
+}
+
+.markdown-body table,
+.markdown-body th,
+.markdown-body tr,
+.markdown-body td {
+    page-break-inside: auto; /* for PDF printing */
+}
+
+.markdown-body table th {
+	font-weight: normal;
+	background-color: #F0F7FD;
+}
+
+.markdown-body table td,
+.markdown-body table th {
+	border: 1px solid #E2E2E2;
+}
+
+.markdown-body table tr {
+	background: none;
+	border-top: 1px solid #E2E2E2;
+	text-align: left;
+}
+
+.markdown-body table tr:nth-child(2n) {
+	background: none; /* clear alternating row colors set by base style */
+}
+
+.markdown-body hr {
+	border-top: 1px solid #9A9A9A;
+	border-right: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+	border-left: 1px solid #9A9A9A;
+	height: 0;
+}
